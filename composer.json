@@ -3,7 +3,11 @@
     "description": "创建easy-scf项目",
     "autoload": {
         "psr-4": {
-            "9u0\\EasyScfBuild\\": "src/"
+            "Controller\\": "/var/user/controller",
+            "Model\\": "/var/user/model",
+            "Validate\\": "/var/user/validate",
+            "Medoo\\": "/opt/Medoo-master/src",
+            "JWT\\": "/opt"
         }
     },
     "authors": [
@@ -17,7 +21,7 @@
     },
     "scripts": {
         "post-update-cmd": [
-            "php -r \"copy('.gitignore', '../.gitignore');\""
+            "php -r \"copy('.gitignore1', '../.gitignore');\""
         ]
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Controller;
 
-class Controller
+class Index extends \EasyScf\Controller
 {
     public function index()
     {
