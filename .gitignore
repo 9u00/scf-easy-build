@@ -1,5 +1,5 @@
 .idea
 composer.lock
 .DS_Store
-test.php
 /vendor/
+.gitignore

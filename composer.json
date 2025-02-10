@@ -21,7 +21,7 @@
     },
     "scripts": {
         "post-update-cmd": [
-            "php -r \"copy('.gitignore1', '../.gitignore');\""
+            "php -r \"('.gitignore1', '../.gitignore');\""
         ]
     }
 }
