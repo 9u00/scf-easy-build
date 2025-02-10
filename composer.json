@@ -1,4 +1,5 @@
 {
+    "name": "easy-scf-build",
     "require": {
         "9u0/easy-scf": "@dev"
     },
