@@ -19,3 +19,4 @@ USER_MODEL: Users
 AUTH_INFO: authInfo
 HASHID_SALT: xxx
 HASHID_LENGTH: 16
+### 上传需要修改.env的秘钥对
