@@ -1,5 +1,17 @@
-{
-    "name": "easy-scf-build",
+    {
+    "name": "9u0/easy-scf-build",
+    "description": "创建easy-scf项目",
+    "autoload": {
+        "psr-4": {
+            "9u0\\EasyScfBuild\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "9u0",
+            "email": "iamxzgsl@gmail.com"
+        }
+    ],
     "require": {
         "9u0/easy-scf": "@dev"
     },

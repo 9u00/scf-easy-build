@@ -19,6 +19,10 @@ class ComposerStaticInit13e911526999a87e1860e5262076f707
         array (
             'EasyScf\\' => 8,
         ),
+        9 => 
+        array (
+            '9u0\\EasyScfBuild\\' => 17,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -33,6 +37,10 @@ class ComposerStaticInit13e911526999a87e1860e5262076f707
         'EasyScf\\' => 
         array (
             0 => __DIR__ . '/..' . '/9u0/easy-scf/src',
+        ),
+        '9u0\\EasyScfBuild\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

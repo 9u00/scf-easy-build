@@ -9,4 +9,5 @@ return array(
     'Hashids\\' => array($vendorDir . '/hashids/hashids/src'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
     'EasyScf\\' => array($vendorDir . '/9u0/easy-scf/src'),
+    '9u0\\EasyScfBuild\\' => array($baseDir . '/src'),
 );
