@@ -17,8 +17,7 @@
     },
     "scripts": {
         "post-update-cmd": [
-            "php -r \"copy('index.php', '../../index.php');\"",
-            "php -r \"copy('.gitignore', '../../.gitignore');\""
+            "php -r \"copy('.gitignore', '../.gitignore');\""
         ]
     }
 }
