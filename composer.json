@@ -1,0 +1,11 @@
+{
+    "require": {
+        "9u0/easy-scf": "@dev"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "php -r \"copy('index.php', '../index.php');\"",
+            "php -r \"copy('.gitignore', '../.gitignore');\""
+        ]
+    }
+}
