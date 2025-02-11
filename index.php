@@ -8,6 +8,4 @@ use EasyScf\Scf;
 function main_handler($event, $context) {
     $scf = new Scf($event, $context);
     return $scf->run();
-    // $index = new \Controller\Index(null, null);
-    // return $index->index();
 }
