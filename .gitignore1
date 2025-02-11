@@ -2,6 +2,6 @@
 composer.lock
 .DS_Store
 test.php
-/vendor/
+vendor/
 .env
 serverless.yaml
