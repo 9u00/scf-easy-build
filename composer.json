@@ -23,7 +23,6 @@
         "post-update-cmd": [
             "php -r \"copy('.gitignore1', '../.gitignore');\"",
             "php -r \"unlink('.gitignore1');\"",
-            "php -r \"unlink('.gitignore');\"",
             "php -r \"copy('.env', '../.env');\"",
             "php -r \"unlink('.env');\""
         ]
